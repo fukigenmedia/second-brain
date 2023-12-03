@@ -2,15 +2,15 @@
 
 namespace App\Livewire\Auth\Passwords;
 
-use Livewire\Component;
 use Illuminate\Support\Facades\Password;
+use Livewire\Component;
 
 class Email extends Component
 {
     /** @var string */
     public $email;
 
-    /** @var string|null */
+    /** @var string|null|bool */
     public $emailSentMessage = false;
 
     public function sendResetPasswordLink()
