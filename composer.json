@@ -19,7 +19,8 @@
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
-        "livewire/livewire": "^3.2"
+        "livewire/livewire": "^3.2",
+        "tallstackui/tallstackui": "^1.0"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.13",

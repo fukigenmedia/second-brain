@@ -19347,6 +19347,37 @@
      
 }
 
+    namespace TallStackUi\Facades { 
+            /**
+     * 
+     *
+     */ 
+        class TallStackUi {
+                    /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function directives()
+        {
+                        /** @var \TallStackUi\TallStackUi $instance */
+                        return $instance->directives();
+        }
+                    /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function personalize($component = null)
+        {
+                        /** @var \TallStackUi\TallStackUi $instance */
+                        return $instance->personalize($component);
+        }
+         
+    }
+     
+}
+
     namespace Illuminate\Http { 
             /**
      * 
@@ -24606,6 +24637,7 @@ namespace  {
             class Vite extends \Illuminate\Support\Facades\Vite {}
             class Livewire extends \Livewire\Livewire {}
             class Flare extends \Spatie\LaravelIgnition\Facades\Flare {}
+            class TallStackUi extends \TallStackUi\Facades\TallStackUi {}
      
 }
 
